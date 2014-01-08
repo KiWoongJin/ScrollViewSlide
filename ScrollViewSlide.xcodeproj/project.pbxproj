@@ -21,6 +21,9 @@
 		00AFBD9E187CE29000DD878F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AFBD80187CE29000DD878F /* UIKit.framework */; };
 		00AFBDA6187CE29000DD878F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AFBDA4187CE29000DD878F /* InfoPlist.strings */; };
 		00AFBDA8187CE29000DD878F /* ScrollViewSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AFBDA7187CE29000DD878F /* ScrollViewSlideTests.m */; };
+		00AFBDB6187CE90600DD878F /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AFBDB1187CE90600DD878F /* image1.jpg */; };
+		00AFBDB7187CE90600DD878F /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AFBDB2187CE90600DD878F /* image2.jpg */; };
+		00AFBDB8187CE90600DD878F /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00AFBDB3187CE90600DD878F /* image3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		00AFBDA3187CE29000DD878F /* ScrollViewSlideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewSlideTests-Info.plist"; sourceTree = "<group>"; };
 		00AFBDA5187CE29000DD878F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AFBDA7187CE29000DD878F /* ScrollViewSlideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewSlideTests.m; sourceTree = "<group>"; };
+		00AFBDB1187CE90600DD878F /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		00AFBDB2187CE90600DD878F /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		00AFBDB3187CE90600DD878F /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,9 @@
 		00AFBD83187CE29000DD878F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				00AFBDB1187CE90600DD878F /* image1.jpg */,
+				00AFBDB2187CE90600DD878F /* image2.jpg */,
+				00AFBDB3187CE90600DD878F /* image3.jpg */,
 				00AFBD84187CE29000DD878F /* ScrollViewSlide-Info.plist */,
 				00AFBD85187CE29000DD878F /* InfoPlist.strings */,
 				00AFBD88187CE29000DD878F /* main.m */,
@@ -229,8 +238,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00AFBD95187CE29000DD878F /* Images.xcassets in Resources */,
+				00AFBDB8187CE90600DD878F /* image3.jpg in Resources */,
+				00AFBDB6187CE90600DD878F /* image1.jpg in Resources */,
 				00AFBD87187CE29000DD878F /* InfoPlist.strings in Resources */,
 				00AFBD90187CE29000DD878F /* Main.storyboard in Resources */,
+				00AFBDB7187CE90600DD878F /* image2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
